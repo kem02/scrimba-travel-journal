@@ -1,0 +1,122 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  font-family: 'Inter';
+}
+
+.nav--container{
+  background-color: #F55A5A;
+  padding: 16px;
+  margin-bottom: 70px;
+  
+}
+
+.heading--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 18px; */
+  letter-spacing: -0.075em;
+
+}
+
+.heading--container > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+
+
+.card--container{
+  /* border: 1px solid black; */
+  margin: 50px 100px 70px 100px;
+  display: flex;
+}
+
+.card--container > img{
+  object-fit: cover;
+  height: 500px;
+  width: 350px;
+  border-radius: 16px;
+}
+
+.inner--card{
+  /* border: 1px solid black; */
+  /* height: 100%; */
+  /* width: 471px; */
+  margin: 10px 10px 10px 20px;
+  padding: 30px 150px 30px 30px;
+}
+
+.location--title{
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.location--title > h3{
+  letter-spacing: 0.17em;
+  font-weight: lighter;
+}
+
+.card--title{
+  font-weight: bolder;
+  font-size: 45px;
+  line-height: 0px;
+  
+  color: black;
+  
+}
+
+.location--title > img{
+  width: 20px;
+  height: 20px;
+  max-width: 100%;
+  object-fit: contain;
+  margin-right: 5px
+}
+.location--title a{
+  text-decoration: underline;
+  color:#918E9B ;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  margin-left: 20px;
+
+}
+
+.dates {
+  font-weight: bolder;
+  font-size: 20px;
+  /* line-height: 100px; */
+  margin-top: 80px;
+  color: black;
+}
+
+.description{
+  margin-top: 30px;
+  font-size: 23px;
+  color:  #2B283A;
+  /* font-weight: lighter; */
+}
+
+.main hr{
+  border: none;
+  height: 1px;
+  color: #ccc;
+  background-color: #ccc;
+  text-align: left;
+  width: 89%;
+}
